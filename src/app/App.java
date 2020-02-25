@@ -29,6 +29,35 @@ public class App {
         // TODO code application logic here
         System.out.println("Hello this is App!!");
         System.out.println("Adding an output to my app!");
+        
+        int a = 0;
+        int b = 2;
+        boolean result = (a==b);
+        System.out.println("Is a = b?" + result);
+        System.out.println("The value of a is"+a);
+        System.out.println("The value of b is"+b);
+        
+        if (a!=b) {
+            System.out.println("The value of a is not EQUAL to b");
+        } else if (a==0) {
+            System.out.println("Only if FALSE and a is ZERO");
+        } else {
+         System.out.println("ELSE");
+     }
+        System.out.println("OUTSIDE");
+        
+        String strResult;
+        
+        //a = 4;
+        
+        strResult = (a==b)?"***TRUE***":"!!!FALSE!!!";
+        
+        System.out.println("Is a = b?" + strResult);
+        System.out.println("Is a = b?" + (a==b));
+        
+        b = (a==b)?0:-1;
+        
+        System.out.println("The value of b is " + b);
     }
     
 }
